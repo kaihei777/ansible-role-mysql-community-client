@@ -1,0 +1,4 @@
+---
+# defaults file for ansible-role-mysql-community-client
+mysql_repo_rpm_url: "https://repo.mysql.com/mysql-community-release-el{{ ansible_distribution_major_version }}.rpm"
+mysql_repo_key_url: "https://repo.mysql.com/RPM-GPG-KEY-mysql"

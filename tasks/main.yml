@@ -1,0 +1,12 @@
+---
+# tasks file for ansible-role-mysql-community-client
+
+- include_tasks: setup-RedHat.yml
+  when: ansible_os_family == 'RedHat'
+
+- name: Install mysql-community-client
+  yum:
+    name:
+      - mysql-community-client
+    state: present
+    update_cache: yes
