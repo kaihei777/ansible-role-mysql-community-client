@@ -33,10 +33,12 @@ galaxy_info:
   platforms:
     - name: EL
       versions:
+        - 6
         - 7
 
   galaxy_tags:
     - mysql
+    - centos6
     - centos7
 
     # List tags for your role here, one per line. A tag is a keyword that describes
