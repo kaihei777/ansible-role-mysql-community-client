@@ -8,6 +8,6 @@
   yum:
     name:
       - mysql-community-client
-    enablerepo: {{ mysql_repo_name }}
+    enablerepo: "{{ mysql_repo_name }}"
     state: present
     update_cache: yes
